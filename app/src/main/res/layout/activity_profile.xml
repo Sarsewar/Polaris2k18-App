@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ankush.polaris2k18.my.example.ankush.polaris2k18.Profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="25dp"
+            app:cardUseCompatPadding="true"
+            android:layout_centerInParent="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Profile"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="25dp"
+            app:cardUseCompatPadding="true"
+            android:layout_centerInParent="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/pro"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Receipt no:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_receipt"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                   android:layout_marginTop="10dp"
+
+                   android:layout_width="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_marginLeft="19dp"
+                       android:textSize="20dp"
+                       android:layout_height="wrap_content"
+                       android:text="Name:"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:textSize="20dp"
+                       android:id="@+id/u_name"
+                       android:layout_marginLeft="20dp"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Email Id:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_email"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="College:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_college"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone no.:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_ph"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Paid:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_paid"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="key:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_key"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Balance Left:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_balance"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Participated in:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/u_parti"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="25dp"
+            app:cardUseCompatPadding="true"
+            android:layout_centerInParent="true"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorGreen"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:id="@+id/ref"
+                android:textColor="@color/white"
+                android:text="Refresh" />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

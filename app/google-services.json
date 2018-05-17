@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739229842153",
+    "firebase_url": "https://polaris2k18-37673.firebaseio.com",
+    "project_id": "polaris2k18-37673",
+    "storage_bucket": "polaris2k18-37673.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739229842153:android:4f86782e892c3186",
+        "android_client_info": {
+          "package_name": "com.example.ankush.polaris2k18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739229842153-qdvatohri5hhm8fk24u5f3deqtikfrgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankush.polaris2k18",
+            "certificate_hash": "3b72a5f5ee47aa7a82aa617926cc39276c7d26ae"
+          }
+        },
+        {
+          "client_id": "739229842153-k7s5ouj93nlf459m2h1m429fl5d6hv08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-k-i1VQJG_cJLsrKxNIOTZ6OpYLtYwXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739229842153-k7s5ouj93nlf459m2h1m429fl5d6hv08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context="com.example.ankush.polaris2k18.my.example.ankush.polaris2k18.Show1">
+    <android.support.v7.widget.CardView
+        android:layout_width="342dp"
+        android:layout_height="434dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        android:layout_centerInParent="true"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.344">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="45dp"
+                android:id="@+id/rgrp">
+                <RadioButton
+                    android:id="@+id/rall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All user"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="35dp"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="27dp" />
+
+                <RadioButton
+                    android:id="@+id/spdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="specific date"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    tools:layout_editor_absoluteY="92dp"
+                    tools:layout_editor_absoluteX="43dp" />
+
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearshow"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:theme="@style/TextLabel"
+                    android:layout_marginLeft="25dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/date1"
+                        android:layout_width="248dp"
+                        android:layout_height="49dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Date"
+                        android:inputType="textPersonName" />
+                </android.support.design.widget.TextInputLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/cal1"
+                    android:src="@drawable/cal"/>
+
+            </LinearLayout>
+
+
+            <Button
+        android:id="@+id/show"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:textColor="@color/white"
+                android:background="@color/colorGreen"
+        android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="120dp" />
+
+            <Button
+                android:id="@+id/anssec"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="Analysis Section"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:background="@color/colorGreen"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteY="231dp"
+                tools:layout_editor_absoluteX="120dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ankush.polaris2k18.my.example.ankush.polaris2k18.Registration">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        android:layout_marginLeft="25dp"
+        app:cardUseCompatPadding="true"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Registration"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/home" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp"
+        android:layout_marginLeft="25dp"
+        app:cardUseCompatPadding="true"
+        android:layout_centerInParent="true"
+       >
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/preceipt"
+                android:layout_width="294dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Receipt Number"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:theme="@style/TextLabel"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/pdate"
+                    android:layout_width="248dp"
+                    android:layout_height="49dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Date"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/cal1"
+                android:src="@drawable/cal"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/pname"
+                android:layout_width="294dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/college"
+            android:layout_width="295dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="College name"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="292dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:hint="Google Mail id"
+            android:inputType="textEmailAddress"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/mno"
+            android:layout_width="292dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="291dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0.42"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="284dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="SELECT WORKSHOP"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/w1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python" />
+
+            <CheckBox
+                android:id="@+id/w2"
+
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Angular js" />
+<!--
+            <CheckBox
+                android:id="@+id/w3"
+                android:layout_width="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:text="workshop3" />
+                -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1.69">
+
+
+
+                <TextView
+                    android:id="@+id/textView"
+
+                    android:layout_width="284dp"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="SELECT EVENTS"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/ch1"
+                    android:layout_width="wrap_content"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Relay" />
+
+                <CheckBox
+                    android:id="@+id/ch2"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Krack-jack" />
+
+                <CheckBox
+                    android:id="@+id/ch3"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quiz" />
+
+                <CheckBox
+                    android:id="@+id/ch4"
+                    android:layout_width="match_parent"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="HotHeads" />
+
+
+                <CheckBox
+                    android:id="@+id/ch5"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nemesis" />
+                <CheckBox
+                    android:id="@+id/ch6"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lord of Stage" />
+
+                <CheckBox
+                    android:id="@+id/ch7"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project" />
+                <CheckBox
+                    android:id="@+id/ch8"
+                    android:layout_width="wrap_content"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="CS GO" />
+
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:theme="@style/TextLabel"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/pay_Money"
+                    android:layout_width="292dp"
+                    android:layout_height="41dp"
+                    android:hint="Total Amount"
+                    android:inputType="phone"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:theme="@style/TextLabel"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/bal"
+                    android:layout_width="292dp"
+                    android:layout_height="41dp"
+                    android:ems="10"
+                    android:hint="Balance Left"
+                    android:inputType="phone"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iOS User"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/iOS"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/colorGreen"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

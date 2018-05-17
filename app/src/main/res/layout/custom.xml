@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bc"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="128dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginRight="12dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:text=""
+        android:layout_toEndOf="@+id/image"
+        android:layout_alignTop="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/image" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:text="Enteries won't change it later,are you sure?"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ok "
+        android:background="@color/colorGreen"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
+    <Button
+        android:id="@+id/dialogButtonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/white"
+        android:background="@color/colorGreen"
+        android:layout_marginRight="18dp" />
+
+</LinearLayout>
+
+</LinearLayout>

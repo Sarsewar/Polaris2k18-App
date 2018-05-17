@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bc"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankush.polaris2k18.my.example.ankush.polaris2k18.ReaderActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QRCode Scanner"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN"
+        android:id="@+id/scan_btn"
+        android:textColor="@color/white"
+        android:background="@color/colorGreen"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email Id:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_email"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="College:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_college"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone no.:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_ph"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Paid:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_paid"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Receipt Number:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_key"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Balance Left:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_bal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Participated in:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/reader_parti"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

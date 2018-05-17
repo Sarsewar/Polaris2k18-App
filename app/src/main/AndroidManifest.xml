@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankush.polaris2k18">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Polaris2k18"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".events" />
+        <activity android:name=".Registration" />
+        <activity android:name=".ReaderActivity" />
+        <activity android:name=".GeneratorActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".PT_Home" />
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".QRGenerate" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sponsor" />
+        <activity android:name=".About" />
+        <activity android:name=".Notice" />
+        <activity android:name=".Validate" />
+        <activity android:name=".Profile" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".Admin" />
+        <activity android:name=".ParticipantQR" />
+        <activity android:name=".Show1" />
+        <activity android:name=".Show12" />
+        <activity android:name=".Analysis" />
+        <activity android:name=".Teacher"></activity>
+    </application>
+
+</manifest>
